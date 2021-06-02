@@ -4,7 +4,7 @@ import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 class TabsTwo extends Component{
     render(){
         let 
-        tab1 = "Main skills",
+        tab1 = "Skills",
         tab2 = "Awards",
         tab3 = "Experience",
         tab4 = "Education & Certification";
@@ -18,13 +18,13 @@ class TabsTwo extends Component{
                             <div className="col-lg-12">
                                 <Tabs>
                                     <TabList  className={`${tabStyle}`}>
-                                        <Tab>{tab1}</Tab>
-                                        <Tab>{tab2}</Tab>
-                                        <Tab>{tab3}</Tab>
+                                        {/* <Tab>{tab1}</Tab> */}
+                                        {/* <Tab>{tab2}</Tab> */}
+                                        {/* <Tab>{tab3}</Tab> */}
                                         <Tab>{tab4}</Tab>
                                     </TabList>
 
-                                    <TabPanel>
+                                    {/* <TabPanel>
                                         <div className="single-tab-content">
                                             <ul>
                                                 <li>
@@ -41,9 +41,32 @@ class TabsTwo extends Component{
                                                 </li>
                                             </ul>
                                         </div>
+                                    </TabPanel> */}
+                                    <TabPanel>
+                                       <div className="single-tab-content">
+                                           <ul>
+                                               <li>
+                                                   <a >BSc In Computer Science<span> - Brunel University, London, United Kingdom</span></a> 
+                                                   Predicted: First / A+ <br /> 2019 - 2022 
+                                               </li>
+                                               <li>
+                                                   <a >Level 3 Diploma in Information Technology<span> - The Bridge Academy</span></a> 
+                                                   Achieved: Distinction* <br /> 2016 - 2019 
+                                               </li>
+                                               <li>
+                                                   <a >A-Levels<span> - The Bridge Academy</span></a> 
+                                                   Achieved: B - Media <br />
+                                                   Achieved: C - Sociology <br /> 2016 - 2019 
+                                               </li>
+                                               <li>
+                                                   <a >GCSEs<span> - The Bridge Academy</span></a>
+                                                   Achieved: 8 A* - B GCSEs<br /> 2011 - 2016
+                                               </li>
+                                           </ul>
+                                       </div>
                                     </TabPanel>
 
-                                    <TabPanel>
+                                    {/* <TabPanel>
                                        <div className="single-tab-content">
                                            <ul>
                                                <li>
@@ -75,23 +98,8 @@ class TabsTwo extends Component{
                                                </li>
                                            </ul>
                                        </div>
-                                    </TabPanel>
+                                    </TabPanel> */}
 
-                                    <TabPanel>
-                                       <div className="single-tab-content">
-                                           <ul>
-                                               <li>
-                                                   <a href="/service">BSc In CSE<span> - ABC University, Los Angeles, CA</span></a> 2010
-                                               </li>
-                                               <li>
-                                                   <a href="/service">Diploma in Computer Science<span> - Gamma Technical Institute</span></a> 2009
-                                               </li>
-                                               <li>
-                                                   <a href="/service">Graphic Designer<span> - ABC Institute, Los Angeles, CA</span></a> 2007
-                                               </li>
-                                           </ul>
-                                       </div>
-                                    </TabPanel>
                                     
                                 </Tabs>
                             </div>

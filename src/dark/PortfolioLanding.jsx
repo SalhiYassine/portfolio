@@ -34,7 +34,7 @@ const PortfolioLanding = () => {
                 <div className="slider-wrapper">
                     {/* Start Single Slide */}
                     {SlideList.map((value , index) => (
-                        <div className="slide personal-portfolio-slider slider-paralax slider-style-3 d-flex align-items-center justify-content-center bg_image bg_image--25" key={index}>
+                        <div className="slide personal-portfolio-slider slider-paralax slider-style-3 d-flex align-items-center justify-content-center " key={index}>
                             <div className="container">
                                 <div className="row">
                                     <div className="col-lg-12">
@@ -71,7 +71,7 @@ const PortfolioLanding = () => {
                             <div className="row row--35 align-items-center">
                                 <div className="col-lg-5">
                                     <div className="thumbnail">
-                                        <img className="w-100" src="/assets/images/about/about-8.jpg" alt="About Images"/>
+                                        {/* <img className="w-100" src="/assets/images/about/about-8.jpg" alt="About Images"/> */}
                                     </div>
                                 </div>
                                 <div className="col-lg-7">
