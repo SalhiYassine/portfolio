@@ -1,7 +1,7 @@
 import React ,{ Component }from "react";
 import { FiCast , FiLayers , FiUsers , FiMonitor } from "react-icons/fi";
 import { FaReact , FaJava , FaJsSquare  } from "react-icons/fa";
-import {SiRedux, SiSpring, SiMysql  } from "react-icons/si";
+import {SiRedux, SiSpring, SiMysql, SiHtml5,SiNodeDotJs, SiMongodb  } from "react-icons/si";
 
 const ServiceList = [
     {
@@ -18,7 +18,8 @@ const ServiceList = [
         icon: <SiSpring />,
         title: 'Springboot',
         // description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
-    },
+    }
+    ,
     { 
         icon: <FaJava />,
         title: 'Java',
@@ -32,6 +33,22 @@ const ServiceList = [
     { 
         icon: <SiMysql />,
         title: 'MySQL',
+        // description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
+    }
+    ,
+    { 
+        icon: <SiMongodb />,
+        title: 'MongoDB',
+        // description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
+    },
+    {
+        icon: <SiNodeDotJs />,
+        title: 'NodeJS',
+        // description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
+    },
+    { 
+        icon: <SiHtml5 />,
+        title: 'HTML',
         // description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
     }
 ]
