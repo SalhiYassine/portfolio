@@ -11,7 +11,7 @@ const ServiceList = [
     },
     {
         icon: <FaJsSquare />,
-        title: 'Java Script',
+        title: 'JavaScript',
         // description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
     },
     {
