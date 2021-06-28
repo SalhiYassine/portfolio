@@ -2,8 +2,7 @@
     "name": "YassineSalhi",
     "version": "0.1.0",
     "private": true,
-    "homepage": "http://SalhiYassine.github.io/portfolio",
-    "basename": "/portfolio/",
+    "homepage": "http://ysalhi.com",
     "dependencies": {
         "@babel/core": "7.4.3",
         "@svgr/webpack": "4.1.0",
