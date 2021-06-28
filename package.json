@@ -1,8 +1,8 @@
 {
-    "name": "YassineSalhi",
+    "name": "Yassine Salhi",
     "version": "0.1.0",
     "private": true,
-    "homepage": "http://ysalhi.com",
+    "homepage": "http://ysalhi.com/",
     "dependencies": {
         "@babel/core": "7.4.3",
         "@svgr/webpack": "4.1.0",

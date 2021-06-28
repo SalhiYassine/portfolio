@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.ed6d2613.chunk.css",
-    "main.js": "/portfolio/static/js/main.76f2e69b.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.76f2e69b.chunk.js.map",
-    "runtime~main.js": "/portfolio/static/js/runtime~main.f308c8e6.js",
-    "runtime~main.js.map": "/portfolio/static/js/runtime~main.f308c8e6.js.map",
-    "static/css/2.c637b493.chunk.css": "/portfolio/static/css/2.c637b493.chunk.css",
-    "static/js/2.106ab72e.chunk.js": "/portfolio/static/js/2.106ab72e.chunk.js",
-    "static/js/2.106ab72e.chunk.js.map": "/portfolio/static/js/2.106ab72e.chunk.js.map",
-    "index.html": "/portfolio/index.html",
-    "precache-manifest.03ebfb0a3235ae27b30e4a0510d4d683.js": "/portfolio/precache-manifest.03ebfb0a3235ae27b30e4a0510d4d683.js",
-    "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/2.c637b493.chunk.css.map": "/portfolio/static/css/2.c637b493.chunk.css.map",
-    "static/css/main.ed6d2613.chunk.css.map": "/portfolio/static/css/main.ed6d2613.chunk.css.map",
-    "static/media/index.scss": "/portfolio/static/media/slick.f97e3bbf.svg"
+    "main.css": "/static/css/main.ed6d2613.chunk.css",
+    "main.js": "/static/js/main.ae1b0ca3.chunk.js",
+    "main.js.map": "/static/js/main.ae1b0ca3.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/css/2.a24c0c49.chunk.css": "/static/css/2.a24c0c49.chunk.css",
+    "static/js/2.106ab72e.chunk.js": "/static/js/2.106ab72e.chunk.js",
+    "static/js/2.106ab72e.chunk.js.map": "/static/js/2.106ab72e.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.d0a8e6f8023cb02a3a822085ac6b969e.js": "/precache-manifest.d0a8e6f8023cb02a3a822085ac6b969e.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.a24c0c49.chunk.css.map": "/static/css/2.a24c0c49.chunk.css.map",
+    "static/css/main.ed6d2613.chunk.css.map": "/static/css/main.ed6d2613.chunk.css.map",
+    "static/media/index.scss": "/static/media/slick.f97e3bbf.svg"
   }
 }
