@@ -27,7 +27,7 @@ class Root extends Component {
                     <Switch>
                         <Route exact path={`${process.env.PUBLIC_URL}/`} component={DarkPortfolioLanding} />
                         <Route exact path={`${process.env.PUBLIC_URL}/dark-portfolio-landing`} component={DarkPortfolioLanding} />
-                        <Route exact path={`${process.env.PUBLIC_URL}/portfolio-details`} component={PortfolioDetails} />
+                        <Route exact path={`${process.env.PUBLIC_URL}/portofolio/portfolio-details`} component={PortfolioDetails} />
                         <Route path={`${process.env.PUBLIC_URL}/404`} component={error404} />
                         <Route component={error404} />
 
