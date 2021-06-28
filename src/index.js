@@ -10,30 +10,26 @@ import PageScrollTop from './component/PageScrollTop';
 import DarkPortfolioLanding from './dark/PortfolioLanding';
 
 // Element Layout
-import ServiceDetails from "./elements/ServiceDetails";
 import PortfolioDetails from "./elements/PortfolioDetails";
-import BlogDetails from "./elements/BlogDetails";
 import error404 from "./elements/error404";
 
 
 // Blocks Layout
-import { BrowserRouter, Switch, Route  } from 'react-router-dom';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import * as serviceWorker from './serviceWorker';
 
 
-class Root extends Component{
-    render(){
-        return(
+class Root extends Component {
+    render() {
+        return (
             <BrowserRouter basename={'/'}>
                 <PageScrollTop>
                     <Switch>
-                        <Route exact path={`${process.env.PUBLIC_URL}/`} component={DarkPortfolioLanding}/>
-                        <Route exact path={`${process.env.PUBLIC_URL}/dark-portfolio-landing`} component={DarkPortfolioLanding}/>
-                        <Route exact path={`${process.env.PUBLIC_URL}/service-details`} component={ServiceDetails}/>
-                        <Route exact path={`${process.env.PUBLIC_URL}/portfolio-details`} component={PortfolioDetails}/>
-                        <Route exact path={`${process.env.PUBLIC_URL}/blog-details`} component={BlogDetails}/>                     
-                        <Route path={`${process.env.PUBLIC_URL}/404`} component={error404}/>
-                        <Route component={error404}/>
+                        <Route exact path={`${process.env.PUBLIC_URL}/`} component={DarkPortfolioLanding} />
+                        <Route exact path={`${process.env.PUBLIC_URL}/dark-portfolio-landing`} component={DarkPortfolioLanding} />
+                        <Route exact path={`${process.env.PUBLIC_URL}/portfolio-details`} component={PortfolioDetails} />
+                        <Route path={`${process.env.PUBLIC_URL}/404`} component={error404} />
+                        <Route component={error404} />
 
                     </Switch>
                 </PageScrollTop>
@@ -42,5 +38,5 @@ class Root extends Component{
     }
 }
 
-ReactDOM.render(<Root/>, document.getElementById('root'));
+ReactDOM.render(<Root />, document.getElementById('root'));
 serviceWorker.register();
