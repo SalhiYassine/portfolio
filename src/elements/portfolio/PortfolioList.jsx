@@ -10,19 +10,19 @@ const PortfolioListContent = [
         github: "https://github.com/SalhiYassine/movie-api"
     },
     {
-        image: 'image-2',
-        category: 'Development',
-        title: 'Getting tickets to the big show',
-        live: "http://blah.com",
-        github: "http://blah.com"
+        image: "https://images.pexels.com/photos/3585000/pexels-photo-3585000.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+        category: 'Front-End',
+        title: 'Movie Finder',
+        live: "https://movie-app-yassine.herokuapp.com/",
+        github: "https://github.com/SalhiYassine/movie-api"
     },
     {
-        image: 'image-2',
-        category: 'Development',
-        title: 'Getting tickets to the big show',
-        live: "http://blah.com",
-        github: "http://blah.com"
-    }
+        image: "https://images.pexels.com/photos/3585000/pexels-photo-3585000.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+        category: 'Front-End',
+        title: 'Movie Finder',
+        live: "https://movie-app-yassine.herokuapp.com/",
+        github: "https://github.com/SalhiYassine/movie-api"
+    },
 ]
 
 class PortfolioList extends Component {
