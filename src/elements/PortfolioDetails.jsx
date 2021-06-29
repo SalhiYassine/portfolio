@@ -29,7 +29,6 @@ class PortfolioDetails extends Component{
         return(
             <React.Fragment>
                 
-
                 <Header headertransparent="header--transparent" colorblack="color--black" logoname="logo.png" />
                 
                 {/* Start Breadcrump Area */}
@@ -38,8 +37,8 @@ class PortfolioDetails extends Component{
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="rn-page-title text-center pt--100">
-                                    <h2 className="title theme-gradient">Getting tickets to the big show</h2>
-                                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. </p>
+                                    <h2 className="title theme-gradient">Movie Finder</h2>
+                                    <p>A front-end project built which utilises the movieDB API in the backend to retrieve all the data it needs</p>
                                 </div>
                             </div>
                         </div>
@@ -54,7 +53,7 @@ class PortfolioDetails extends Component{
                             <div className="col-lg-12">
                                 <div className="portfolio-details">
                                     <div className="inner">
-                                        <h2>Trydo</h2>
+                                        <h2>Movie Finder</h2>
                                         <p className="subtitle">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commod viverra maecenas accumsan lacus vel facilisis. ut labore et dolore magna aliqua. </p>
 
@@ -84,19 +83,14 @@ class PortfolioDetails extends Component{
                                         </div>
                                     </div>
                                     <div className="portfolio-thumb-inner">
-                                        <div className="thumb position-relative mb--30">
-                                            <img src="/assets/images/portfolio/portfolio-big-03.jpg" alt="Portfolio Images"/>
-                                            <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId='ZOoVOfieAF8' onClose={() => this.setState({isOpen: false})} />
-                                            <button className="video-popup position-top-center" onClick={this.openModal}><span className="play-icon"></span></button>
-                                        </div>
-                                        
-                                        <div className="thumb mb--30">
+                                                                               
+                                        {/* <div className="thumb mb--30">
                                             <img src="/assets/images/portfolio/portfolio-big-02.jpg" alt="Portfolio Images"/>
                                         </div>
 
                                         <div className="thumb">
                                             <img src="/assets/images/portfolio/portfolio-big-01.jpg" alt="Portfolio Images"/>
-                                        </div>
+                                        </div> */}
                                     </div>
                                 </div>
                             </div>
@@ -111,8 +105,8 @@ class PortfolioDetails extends Component{
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="section-title text-center">
-                                    <span className="theme-color font--18 fontWeight600">Related Work</span>
-                                    <h2>Our More Projects</h2>
+                                    <span className="theme-color font--18 fontWeight600">Screenshots</span>
+                                    <h2>Project Visuals</h2>
                                 </div>
                             </div>
                         </div>
@@ -126,8 +120,7 @@ class PortfolioDetails extends Component{
                                         </a>
                                     </div>
                                     <div className="inner">
-                                        <h4><a href="/portfolio-details">Digital Analysis</a></h4>
-                                        <span className="category">Technique</span>
+                                        <h4><a href="/portfolio-details">Home Page</a></h4>
                                     </div>
                                 </div>
                             </div>
@@ -141,8 +134,7 @@ class PortfolioDetails extends Component{
                                         </a>
                                     </div>
                                     <div className="inner">
-                                        <h4><a href="/portfolio-details">Plan Management</a></h4>
-                                        <span className="category">PLANNING</span>
+                                        <h4><a href="/portfolio-details">Search Page</a></h4>
                                     </div>
                                 </div>
                             </div>
@@ -162,6 +154,7 @@ class PortfolioDetails extends Component{
                 
                 <Footer />  
 
+ 
 
             </React.Fragment>
         )
