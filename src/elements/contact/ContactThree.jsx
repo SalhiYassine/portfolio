@@ -22,7 +22,7 @@ class ContactThree extends Component{
                                     <a href="mailto:yassinesalhi135@gmail.com"> yassinesalhi135@gmail.com</a> </p>
                             </div>
                             <div className="form-wrapper">
-                                <form>
+                                <form action="https://formspree.io/f/xayabjjp" method="POST">
                                     <label htmlFor="item01">
                                         <input
                                             type="text"

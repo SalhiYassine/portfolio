@@ -37,16 +37,16 @@ class PortfolioList extends Component {
                             <div className="thumbnail-inner">
                                 <img className="w-100 h-100" src={value.image} alt="" />
                             </div>
-                            <div className="content">
+                            <div className="content text-dark p-1">
                                 <div className="inner">
-                                    <p>{value.category}</p>
+                                    <p className="bg-light text-dark w-50 mx-auto">{value.category}</p>
                                     <h4><a href={value.live} >{value.title}</a></h4>
                                     <div className="d-flex justify-content-around">
-                                        <div className="portfolio-button">
-                                            <a className="rn-btn" href={value.live} >View Live</a>
+                                        <div className="portfolio-button bg-dark">
+                                            <a className="rn-btn "  target="_blank" href={value.live} >View Live</a>
                                         </div>
-                                        <div className="portfolio-button">
-                                            <a className="rn-btn" href={value.github} >View Code</a>
+                                        <div className="portfolio-button bg-dark">
+                                            <a className="rn-btn"  target="_blank" href={value.github} >View Code</a>
                                         </div>
                                     </div>
                                 </div>
